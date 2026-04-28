@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const schedule = [
@@ -51,9 +52,13 @@ export default function SchedulePage() {
       {/* PAGE HERO */}
       <section className="relative overflow-hidden bg-slate-950 px-6 py-24 text-white md:py-32">
         <div className="absolute inset-0 bg-slate-800">
-          <div className="flex h-full items-center justify-center text-center text-xs font-black uppercase tracking-[0.4em] text-slate-600">
-            Schedule Hero Image Placeholder
-          </div>
+          <Image
+            src="/class.jpeg"
+            alt="Denny Prokopos teaching a jiu jitsu class"
+            fill
+            priority
+            className="object-cover object-[center_10%]"
+          />
         </div>
 
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/30" />

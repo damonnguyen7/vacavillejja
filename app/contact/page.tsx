@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/lib/site";
 
@@ -49,13 +50,19 @@ export default function ContactPage() {
       {/* PAGE HERO */}
       <section className="relative overflow-hidden bg-slate-950 px-6 py-24 text-white md:py-32">
         <div className="absolute inset-0 bg-slate-800">
-          <div className="flex h-full items-center justify-center text-center text-xs font-black uppercase tracking-[0.4em] text-slate-600">
-            Contact Hero Image Placeholder
-          </div>
+          <Image
+            src="/ebi-win.jpeg"
+            alt="Denny Prokopos celebrating a competition win"
+            fill
+            priority
+            className="object-cover object-center"
+          />
         </div>
 
+        <div className="absolute inset-0 bg-slate-950/45" />
         <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-950/30" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/35 to-transparent" />
+        <div className="absolute inset-0 bg-sky-950/10 mix-blend-multiply" />
 
         <div className="relative mx-auto max-w-7xl">
           <p className="text-xs font-black uppercase tracking-[0.45em] text-sky-400">
