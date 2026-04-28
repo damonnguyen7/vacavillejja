@@ -1,11 +1,11 @@
 export const siteConfig = {
-  name: "10th Planet Vacaville",
+  name: "Vacaville Jiu Jitsu Academy",
   shortName: "Vacaville JJA",
   tagline: "World-class no-gi jiu jitsu in Vacaville, CA.",
   description:
     "Train under Denny Prokopos — one of the original 10th Planet black belts under Eddie Bravo.",
   phone: "(707) 000-0000",
-  email: "info@10thplanetvacaville.com",
+  email: "10thplanetfremont@gmail.com",
   location: "Vacaville, CA",
   calendlyUrl: "https://calendly.com/10thplanetjiujitsuvacaville/free-trial",
 };

@@ -159,7 +159,17 @@ export default function ContactPage() {
           </div>
 
           {/* CONTACT FORM */}
-          <form className="border-t-4 border-sky-500 bg-white p-6 shadow-xl md:p-8">
+          <form
+            action="https://formspree.io/f/xaqagdjk"
+            method="POST"
+            className="border-t-4 border-sky-500 bg-white p-6 shadow-xl md:p-8"
+          >
+            <input
+              type="hidden"
+              name="_subject"
+              value="New message from Vacaville JJA website"
+            />
+
             <h2 className="text-2xl font-black uppercase">Send a Message</h2>
 
             <p className="mt-2 text-sm text-slate-500">
@@ -181,6 +191,7 @@ export default function ContactPage() {
                     name="firstName"
                     className="mt-2 w-full border border-slate-300 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-sky-500"
                     placeholder="First"
+                    required
                   />
                 </div>
 
@@ -215,6 +226,7 @@ export default function ContactPage() {
                   type="email"
                   className="mt-2 w-full border border-slate-300 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-sky-500"
                   placeholder="you@email.com"
+                  required
                 />
               </div>
 
@@ -247,15 +259,16 @@ export default function ContactPage() {
                   name="topic"
                   className="mt-2 w-full border border-slate-300 bg-white px-4 py-3 text-sm outline-none transition focus:border-sky-500"
                   defaultValue=""
+                  required
                 >
                   <option value="" disabled>
                     Select...
                   </option>
-                  <option value="free-trial">Free Trial Class</option>
-                  <option value="membership">Membership</option>
-                  <option value="schedule">Class Schedule</option>
-                  <option value="private-lessons">Private Lessons</option>
-                  <option value="general">General Question</option>
+                  <option value="Free Trial Class">Free Trial Class</option>
+                  <option value="Membership">Membership</option>
+                  <option value="Class Schedule">Class Schedule</option>
+                  <option value="Private Lessons">Private Lessons</option>
+                  <option value="General Question">General Question</option>
                 </select>
               </div>
 
@@ -272,11 +285,12 @@ export default function ContactPage() {
                   name="message"
                   className="mt-2 min-h-36 w-full resize-none border border-slate-300 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-sky-500"
                   placeholder="Tell us what’s on your mind..."
+                  required
                 />
               </div>
 
               <button
-                type="button"
+                type="submit"
                 className="bg-sky-500 px-6 py-4 text-xs font-black uppercase tracking-wide text-white transition hover:bg-sky-400"
               >
                 Send Message →
