@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "Vacaville Jiu Jitsu Academy",
-  shortName: "Vacaville JJA",
+  name: "10th Planet Vacaville Jiu Jitsu",
+  shortName: "10th Planet Vacaville",
   tagline: "World-class no-gi jiu jitsu in Vacaville, CA.",
   description:
     "Train under Denny Prokopos — one of the original 10th Planet black belts under Eddie Bravo.",
