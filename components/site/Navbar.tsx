@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-3">
           <div className="flex h-9 w-9 items-center justify-center bg-sky-500 text-xs font-black uppercase text-white">
-            10P
+            VJJA
           </div>
 
           <span className="text-sm font-black uppercase tracking-[0.2em] text-white">

@@ -81,11 +81,31 @@ const schedule = [
 ];
 
 const galleryItems = [
-  "Competition",
-  "World Champion",
-  "Training Room",
-  "Live Rounds",
-  "Combat Stage",
+  {
+    label: "Competition",
+    image: "/ebi-win.jpeg",
+    alt: "Denny Prokopos celebrating a competition win",
+  },
+  {
+    label: "World Champion",
+    image: "/podium.jpeg",
+    alt: "Denny Prokopos standing on the podium",
+  },
+  {
+    label: "Training Room",
+    image: "/class.jpeg",
+    alt: "Denny Prokopos teaching a jiu jitsu class",
+  },
+  {
+    label: "Live Rounds",
+    image: "/rchoke.jpeg",
+    alt: "Denny Prokopos competing in no-gi jiu jitsu",
+  },
+  {
+    label: "Combat Stage",
+    image: "/podium-2.png",
+    alt: "Denny Prokopos on a competition podium",
+  },
 ];
 
 export default function HomePage() {
@@ -240,11 +260,20 @@ export default function HomePage() {
       <section className="grid grid-cols-2 bg-slate-950 md:grid-cols-5">
         {galleryItems.map((item) => (
           <div
-            key={item}
-            className="flex h-48 items-end border-r border-white/10 bg-slate-800 p-4 last:border-r-0 md:h-56"
+            key={item.label}
+            className="relative flex h-48 items-end overflow-hidden border-r border-white/10 bg-slate-800 p-4 last:border-r-0 md:h-56"
           >
-            <p className="text-[10px] font-black uppercase tracking-[0.25em] text-white/60">
-              {item}
+            <Image
+              src={item.image}
+              alt={item.alt}
+              fill
+              className="object-cover object-center"
+            />
+
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/25 to-transparent" />
+
+            <p className="relative text-[10px] font-black uppercase tracking-[0.25em] text-white/80">
+              {item.label}
             </p>
           </div>
         ))}
