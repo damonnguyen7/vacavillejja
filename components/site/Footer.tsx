@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div>
+        {/* <div>
           <h4 className="text-xs font-black uppercase tracking-[0.25em] text-sky-400">
             Programs
           </h4>
@@ -43,7 +43,7 @@ export default function Footer() {
             <p>Free Trial Class</p>
             <p>Private Lessons</p>
           </div>
-        </div>
+        </div> */}
 
         <div>
           <h4 className="text-xs font-black uppercase tracking-[0.25em] text-sky-400">
@@ -59,7 +59,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-white/10 px-6 py-6 text-center text-xs text-slate-600">
-        © 2026 {siteConfig.name}. All rights reserved.
+        © Greco Americano Pankration Jiu Jitsu LLC
       </div>
     </footer>
   );

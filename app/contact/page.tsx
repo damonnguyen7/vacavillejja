@@ -6,7 +6,7 @@ const contactItems = [
   {
     icon: "📍",
     title: "Location",
-    lines: ["Vacaville, CA", "Full address releasing with grand opening"],
+    lines: ["668 Parker Rd. Fairfield CA 94533"],
   },
   {
     icon: "📞",
@@ -242,7 +242,7 @@ export default function ContactPage() {
                   id="phone"
                   name="phone"
                   className="mt-2 w-full border border-slate-300 px-4 py-3 text-sm outline-none transition placeholder:text-slate-400 focus:border-sky-500"
-                  placeholder="(707) 000-0000"
+                  placeholder="(707) 673-3389"
                 />
               </div>
 

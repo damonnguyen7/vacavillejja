@@ -138,7 +138,7 @@ export default function HomePage() {
               <br />
               <span className="text-sky-400">Jiu Jitsu</span>
               <br />
-              In Vacaville
+              Vacaville / Fairfield
             </h1>
 
             <p className="mt-6 max-w-lg text-sm leading-7 text-slate-300">

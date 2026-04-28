@@ -4,8 +4,8 @@ export const siteConfig = {
   tagline: "World-class no-gi jiu jitsu in Vacaville, CA.",
   description:
     "Train under Denny Prokopos — one of the original 10th Planet black belts under Eddie Bravo.",
-  phone: "(707) 000-0000",
-  email: "10thplanetfremont@gmail.com",
+  phone: "(707) 673-3389",
+  email: "10thplanetjiujitsuvacaville@gmail.com",
   location: "Vacaville, CA",
   calendlyUrl: "https://calendly.com/10thplanetjiujitsuvacaville/free-trial",
 };
