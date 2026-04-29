@@ -141,20 +141,18 @@ export default function ContactPage() {
               </div>
             </div>
 
-            <div className="mt-8 bg-slate-950 px-6 py-10 text-center text-white">
-              <p className="text-3xl">📍</p>
-
-              <h3 className="mt-3 text-lg font-black uppercase">
-                Vacaville, CA
-              </h3>
-
-              <p className="mt-2 text-sm text-slate-400">
-                Full address releasing
-              </p>
-
-              <p className="mt-1 text-sm text-slate-500">
-                with grand opening announcement
-              </p>
+            <div className="mt-8 overflow-hidden bg-slate-950 text-white shadow-xl">
+              <iframe
+                title="10th Planet Fairfield location map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3132.280010375562!2d-121.9593236!3d38.27300150000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80853e42b58afa15%3A0xcae3cc55677986e7!2s668%20Parker%20Rd%2C%20Fairfield%2C%20CA%2094533%2C%20USA!5e0!3m2!1sen!2s!4v1777442544380!5m2!1sen!2s"
+                width="100%"
+                height="450"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="block w-full"
+              />
             </div>
           </div>
 

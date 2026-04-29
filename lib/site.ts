@@ -6,7 +6,7 @@ export const siteConfig = {
     "Train under Denny Prokopos — one of the original 10th Planet black belts under Eddie Bravo.",
   phone: "(707) 673-3389",
   email: "10thplanetjiujitsuvacaville@gmail.com",
-  location: "Fairfield, CA",
+  location: "668 Parker Rd. Fairfield CA 94533",
   calendlyUrl: "https://calendly.com/10thplanetjiujitsuvacaville/free-trial",
 };
 
