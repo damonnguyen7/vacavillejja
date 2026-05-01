@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import Link from "next/link";
 import { navItems, siteConfig } from "@/lib/site";
@@ -15,8 +16,14 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-white/10 bg-slate-950/95 backdrop-blur">
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-6">
         <Link href="/" className="flex items-center gap-3" onClick={closeMenu}>
-          <div className="flex h-9 w-9 shrink-0 items-center justify-center bg-sky-500 text-xs font-black uppercase text-white">
-            VJJA
+          <div className="relative h-12 w-12 shrink-0 overflow-hidden">
+            <Image
+              src="/logo.png"
+              alt={`${siteConfig.shortName} logo`}
+              fill
+              priority
+              className="object-contain"
+            />
           </div>
 
           <span className="text-sm font-black uppercase tracking-[0.2em] text-white">
