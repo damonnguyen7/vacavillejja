@@ -230,13 +230,11 @@ export default function HomePage() {
               <p className="py-3">
                 First ever 10th Planet black belt under Eddie Bravo
               </p>
-              <p className="py-3">ADCC veteran and EBI Champion</p>
+              <p className="py-3">EBI Champion</p>
               <p className="py-3">
                 3× World Champion — competed at the highest levels
               </p>
-              <p className="py-3">
-                Coach of UFC fighters, ADCC and world champions
-              </p>
+              <p className="py-3">Coach of UFC fighters and world champions</p>
               <p className="py-3">Pioneer of modern no-gi jiu jitsu</p>
             </div>
 
