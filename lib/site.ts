@@ -7,7 +7,7 @@ export const siteConfig = {
   phone: "(707) 673-3389",
   email: "10thplanetjiujitsuvacaville@gmail.com",
   location: "668 Parker Rd. Fairfield CA 94533",
-  calendlyUrl: "https://calendly.com/10thplanetjiujitsuvacaville/free-trial",
+  calendlyUrl: "https://calendly.com/10thplanetjiujitsuvacaville/30min",
 };
 
 export const navItems = [
